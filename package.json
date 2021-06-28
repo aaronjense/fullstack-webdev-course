@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-webdev-course",
+  "version": "1.0.0",
+  "description": "Website for Fullstack Webdev Course.",
+  "main": "indext.html\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronjense/fullstack-webdev-course.git"
+  },
+  "author": "Aaron Jense",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronjense/fullstack-webdev-course/issues"
+  },
+  "homepage": "https://github.com/aaronjense/fullstack-webdev-course#readme"
+}
