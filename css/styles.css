@@ -38,6 +38,10 @@
   background-color: #512da8;
 }
 
-#reserve-table-header {
+.reserve-table-color {
   background-color: #f1c046;
+}
+
+.reserve-table-btn {
+  width: 200px;
 }
