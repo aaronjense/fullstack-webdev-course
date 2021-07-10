@@ -89,3 +89,13 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal-header {
+  color: floralwhite;
+  border-bottom: 0 none;
+  background-color: $background-dark;
+}
+
+.modal-body {
+  background-color: $background-light;
+}

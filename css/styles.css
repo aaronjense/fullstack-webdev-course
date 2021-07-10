@@ -64,3 +64,11 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  color: floralwhite;
+  border-bottom: 0 none;
+  background-color: #512da8; }
+
+.modal-body {
+  background-color: #9575cd; }

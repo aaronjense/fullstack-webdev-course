@@ -57,11 +57,9 @@
               </a>
             </li>
           </ul>
-          <span class="navbar-text">
-            <a data-toggle="modal" data-target="#loginModal">
-              <span class="fa fa-sign-in"></span> Login</a
-            >
-          </span>
+          <button id="loginButton" class="btn navbar-text">
+            <a> <span class="fa fa-sign-in"></span> Login</a>
+          </button>
         </div>
         <button
           class="navbar-toggler"
@@ -89,18 +87,15 @@
             <img src="img/logo.png" class="img-fluid" />
           </div>
           <div class="col-12 col-sm align-self-center">
-            <a
-              data-toggle="modal"
-              data-target="#reserveTableModal"
-              role="button"
+            <button
+              id="reserveTableButton"
               class="
-                btn btn-block
-                nav-link
-                btn-warning
+                btn btn-block btn-warning
                 reserve-table-btn reserve-table-color
               "
-              >Reserve Table</a
             >
+              Reserve Table
+            </button>
           </div>
         </div>
       </div>
@@ -413,7 +408,7 @@
     </div>
     <!-- #loginModal -->
 
-    <div id="reserveTableModal" class="modal fade" role="dialog">
+    <div id="reserveTableModal" class="modal fade">
       <div class="modal-dialog modal-lg" role="content">
         <!-- Modal content-->
         <div class="modal-content">
@@ -536,27 +531,29 @@
                   />
                 </div>
               </div>
+
+              <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="btn btn-primary mr-auto">
+                    Reserve
+                  </button>
+                </div>
+              </div>
+
               <!-- .form-group .row -->
             </form>
           </div>
-          <!-- .modal-body -->
-
-          <div class="modal-footer">
-            <div class="col-md-2"></div>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Cancel
-            </button>
-
-            <button type="submit" class="btn btn-primary mr-auto">
-              Reserve
-            </button>
-          </div>
-          <!-- .modal-footer -->
         </div>
+        <!-- .modal-body -->
+
         <!-- .modal-content -->
       </div>
     </div>
@@ -567,6 +564,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- Carousel Pause / Play Button -->
     <script>
       $(document).ready(function () {
         $("#mycarousel").carousel({ interval: 2000 });
@@ -581,6 +579,20 @@
             $("#carouselButton").children("span").addClass("fa-pause");
           }
         });
+      });
+    </script>
+
+    <!-- Login Modal Display -->
+    <script>
+      $(document).on("click", "#loginButton", function () {
+        $("#loginModal").modal("toggle");
+      });
+    </script>
+
+    <!-- Reserve Table Modal Display -->
+    <script>
+      $(document).on("click", "#reserveTableButton", function () {
+        $("#reserveTableModal").modal("toggle");
       });
     </script>
   </body>
