@@ -1,91 +1,69 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px auto;
+  padding: 0px 0px;
 }
-
 .row-content {
-  margin: 0 px auto;
-  padding: 50px 0px 50px 0px;
+  margin: 0px auto;
+  padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px;
 }
-
 .footer {
   background-color: #d1c4e9;
   margin: 0px auto;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
 }
-
 .jumbotron {
-  padding: 70px 30px 70px 30px;
   margin: 0px auto;
+  padding: 70px 30px;
   background: #9575cd;
-  color: florawhite;
+  color: floralwhite;
 }
-
-.address {
+address {
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f;
 }
-
-.body {
+body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
 }
-
 .navbar-dark {
   background-color: #512da8;
 }
-
-.reserve-table-color {
-  background-color: #f1c046;
-}
-
-.reserve-table-btn {
-  width: 200px;
-}
-
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
-
 .carousel {
   background: #512da8;
 }
-
-.carousel-item {
+.carousel .carousel-item {
   height: 300px;
 }
-
-.carousel-item img {
+.carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 300px;
 }
-
 .carousel-caption {
   margin-left: 300px;
   height: 75%;
 }
-
 .carousel-control-prev {
   height: 200px;
   width: 60%;
 }
-
 .carousel-control-next {
   height: 200px;
   width: 10%;
 }
-
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
-  z-index: 5px;
+  z-index: 1;
 }
